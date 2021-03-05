@@ -13,7 +13,7 @@ except ValueError:
     print("Sorry, but that is not a number")
 except ZeroDivisionError:
     print("Can not divide by zero")
-except:
+except 33:
     print("Something else happened")
 else:
     print("you were bron around" , 2021 - age)
